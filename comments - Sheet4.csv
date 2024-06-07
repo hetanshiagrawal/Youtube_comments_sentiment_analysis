@@ -1,0 +1,564 @@
+Name,Comment,Time,Likes,Reply Count
+Rohan Raj,Didi aapne title pe kyu nhi likha ke ya java ka code pe hai main kitne focus ke sath dekh rha tha.<br>main tab se python se related tree data structure ke video dhund rha hu.<br>Mera complete 15 min waste ho gya..<br>Koi nhi at least fundamental to smjh aa he gya h<br>anyway thank you for this amazing tutorial <br>Or han main phir aaunga is video mein after learning java programming.<br>or gussa mat hona like kiye bina nhi jaunga.,2023-10-04T18:56:14Z,0,0
+Ashish B M,Diameter of nodes are defined in terms of edges not nodes. So output should be 4 mam. I just checked leetcode.,2023-09-25T15:41:38Z,0,0
+faizan mustafa,thanks didi,2023-09-25T07:33:48Z,1,0
+Mr. Doggo,"Last Question Solution :<br>public static int sumAtKthLevel(Node root,int k)<br>        {<br>            int sum=0,c=1;<br>            Queue&lt;Node&gt; q=new LinkedList&lt;&gt;();<br>            q.add(root);<br>            q.add(null);<br>            while(c&lt;=k)<br>            {<br>                Node current=q.poll();<br>                if(current==null)<br>                {<br>                    c++;<br>                    if(q.isEmpty())<br>                    {<br>                        return sum;<br>                    }<br>                    else<br>                    {<br>                        q.add(null);<br>                    }<br>                }<br>                else<br>                {<br>                    if(k==c)<br>                        sum+=<a href=""http://current.data/"">current.data</a>;<br>                    else<br>                    {<br>                        if(current.left!=null)<br>                        q.add(current.left);<br>                        if(current.right!=null)<br>                        q.add(current.right);<br>                    }<br>                }<br>            }<br>            return sum;<br>        }",2023-09-18T08:36:55Z,0,0
+Siddhant Vishnu,Thanks for the lecture!! was able to solve the homework question.,2023-09-17T11:48:34Z,0,0
+Prakash Sharma,"The build tree function is wrong here as it&#39;s not building the binary tree but just going a left order tree always, it will never append to right edge as per the code. Please correct it. Also, you will need a queue in order to build a tree where leaves are filled in level order.",2023-09-14T17:46:40Z,0,0
+Rishu Singh,aapka jlwa hai didi,2023-09-09T20:53:22Z,0,0
+CodeMarshal,"Did you know, you can do iterative in / pre / post order traversals using same code??<br>Checkout how I did it in just 20 lines, in my new video<br><br><a href=""https://www.youtube.com/watch?v=6wxNc8gCj8E"">https://www.youtube.com/watch?v=6wxNc8gCj8E</a>",2023-09-08T08:52:12Z,1,0
+Daya Rajpoot 10k,Aap Explain bahut acche se karti hai,2023-09-05T19:23:16Z,1,0
+Ankit Singh,Mam aap is lecture ka last wala code kaha run ki hai,2023-09-03T11:58:45Z,0,0
+Aman Sharma,How can we make objects for static classes?,2023-08-25T15:16:15Z,0,0
+riyu,Mam jb mai code likhte h to usko forward kaise kare share nhi hota h code whatsapp pr,2023-08-24T03:24:47Z,0,0
+Ranjith Singh,"homework problem ans:<br>public void sumofkth_level(int k)<br>	{<br>		if(root==null)<br>		{<br>			return;<br>		}<br>		int level=1;<br>		int sum=0;<br>		Queue&lt;Node&gt; q=new LinkedList&lt;&gt;();<br>		q.add(root);<br>		q.add(null);<br>		if(level==k)<br>		{<br>			sum=sum+<a href=""http://root.data/"">root.data</a>;<br>			System.out.println(sum);<br>			return;<br>		}<br>		while(!q.isEmpty())<br>		{<br>			Node curr=q.remove();<br>			if(curr==null)<br>			{<br>				level++;<br>				if(level==k)<br>				{<br>					q.add(null);<br>					while(level==k)<br>					{<br>						Node i=q.remove();<br>						if(i==null)<br>						{<br>							System.out.println(sum);<br>							return;<br>						}<br>						sum=sum+<a href=""http://i.data/"">i.data</a>;<br>					}<br>				}<br>				else<br>				{<br>					q.add(null);<br>				}<br>			}<br>			else<br>			{<br>				if(curr.left!=null)<br>				{<br>					q.add(curr.left);<br>				}<br>				if(curr.right!=null)<br>				{<br>					q.add(curr.right);<br>				}<br>			}<br>		}<br>	}",2023-08-11T10:45:30Z,0,0
+Lo-fi Chillaxx,Mam your teaching skill is fabulous... The way you teached us... It&#39;s really Appreciatable... Your hard works... Your skill... Your consistency.. Your taughts all are fabulous.. Really really big fan of yours..may God bless you shruddha mam....,2023-08-03T14:19:44Z,1,0
+Film Buzz,Sum of Node not correct answer 😕  anyone has understand,2023-08-02T05:27:55Z,0,0
+J𝚊𝚜𝚑𝚞 N𝚊𝚗𝚞,"<a href=""https://youtube.com/@VS_Time045"">https://youtube.com/@VS_Time045</a>",2023-07-21T10:15:37Z,0,0
+The Exam Central,". <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=1h03m37s"">1:03:37</a>",2023-07-18T11:27:12Z,0,0
+The Exam Central,"Post order traversal <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=30m01s"">30:01</a>",2023-07-18T03:28:59Z,0,0
+The Exam Central,". <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=18m18s"">18:18</a>",2023-07-18T02:32:27Z,0,0
+Chethan Venkataramaiah,"Thank u for this video , really appreciate the effort. But can u please provide the visualization of what happens in the call stack when the recursive call happens in pre-order and other traversals happens.? I didnt really understand what exactly happens when return ; is executed",2023-07-13T07:51:10Z,0,0
+Suraj Singh,Didi apne level 4 ka depth 4 likha ha par hona toh 3 chahiye  na please check if i am wrong or right.,2023-07-13T05:38:50Z,0,0
+Djpkfm 242ft.,we need DSA full course for 2nd year btech,2023-07-11T17:12:07Z,0,0
+Md Asif,"//*<b>*HomeWork Task**</b><br>public static int SumInKLevel(Node node,int k) {<br>			if(node==null)<br>				return 0;<br>			int c=0,sum=0;<br>			<br>			Queue&lt;Node&gt; que = new LinkedList&lt;&gt;();<br>			que.add(node);<br>			que.add(null);<br>			<br>			while(!que.isEmpty()) {<br>				Node currNode = que.remove();<br>				<br>				if(currNode==null) {<br>					//System.out.println();<br>					c++;<br>					if(que.isEmpty())<br>						break;<br>					else {<br>						que.add(null);<br>					}<br>				}<br>				else {<br>					//System.out.print(currNode.data+&quot; &quot;);<br>					if(c==k) {<br>						sum+=<a href=""http://currnode.data/"">currNode.data</a>;<br>					}<br>					if(currNode.left!=null)<br>						que.add(currNode.left);<br>					if(currNode.right!=null)<br>						que.add(currNode.right);<br>				}<br>			}<br>		return sum;<br>	}",2023-07-11T10:05:40Z,0,0
+Abhishek V,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=41m00s"">41:00</a>",2023-07-07T18:50:31Z,0,0
+ManasSingh,what if your index is greater then your lastuseindex,2023-07-06T08:25:03Z,0,0
+kunal nandan,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=1h01m02s"">1:01:02</a> diameter is 6",2023-07-03T01:58:56Z,0,0
+Student Of klnce,Mam please add captions,2023-06-18T06:22:49Z,0,0
+Ayush Kasaudhan,"At <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=10m38s"">10:38</a> level of 5 shoud be 3...rytt na??",2023-06-05T09:43:00Z,0,0
+ANURUDDH KATIYAR,Pls check Height of a Tree once again it should be maximum level+1,2023-06-04T13:42:21Z,1,0
+ZaHrA personal vloger,Apny courses me CNC ka bi course add kr lain or os ke bi training krwain YouTube pe,2023-05-27T09:13:04Z,0,0
+A09 - Kusum Krishna Singh,"i did the coding for isSubTree part but I&#39;m not able to print its solution. ik its very basic. but no idea why I&#39;m not able to print its solution<br><br>public static void main(String[] args) {<br><br>        int nodes[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};<br>        binarytree bt = new binarytree();<br>        Node root = bt.buildTree(nodes);<br><br>int subNodes[] = {2, 4, -1, -1, 5, -1, -1};<br>Node subRoot = sbt.buildTree(subNodes);<br>        boolean isSubTree = sbt.isSubTree(root, subRoot);<br> System.out.println(&quot;Is subRoot a subtree of root? &quot; + isSubTree);<br>    }<br>this is my code od PSVM . help help me to print the IsSub TREE pasrt",2023-05-26T19:43:36Z,0,0
+Sainul Islam,Hi four s kinges,2023-05-23T07:22:19Z,0,0
+Z and U Op,Isn&#39;t it that level starts from 0 instead of 1? From root node,2023-05-22T18:54:35Z,0,0
+Sapphire Nguyen,Huhu I couldn&#39;t understand what she says,2023-05-21T10:06:07Z,0,0
+Raghav Singhal,chalo aakhir kaar level order traversal samaj aahi gaya,2023-05-12T19:58:03Z,0,0
+S H Mehdi,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=18m15s"">18:15</a> if you are creating a static method inside Tree class e.g buildTree(). Then it is not necessary to create an object in Main method.",2023-05-05T09:17:08Z,0,1
+Patil Gaytri,Part 1( DSA) video??,2023-05-03T17:52:35Z,0,0
+Duarte Lucas,Is this available in english?,2023-05-02T18:28:07Z,0,2
+Toshif Khan Vlogs,The level of root is 0 and not 1.,2023-04-25T21:58:50Z,0,0
+kattar Pasi,Thanks didi ❤🙏🏻,2023-04-23T10:14:33Z,0,0
+kattar Pasi,❤,2023-04-23T10:13:50Z,0,0
+Somil Srivastava,Watch at 2X if your exams tommarow 😔😭👍,2023-04-23T06:00:41Z,0,0
+Riya Gupta,Didi mujhee binary tree c and c++ se padhni h,2023-04-18T17:42:57Z,0,1
+santosh chhetri thapa,"public int diameter(Node root,int longest)<br>    {<br>        if(root==null)<br>        {<br>            return longest;<br>        }<br>        int temp = 1 + height(root.Right) +height(root.Left);<br>        longest= temp&gt;longest? temp:longest;<br>        longest=diameter(root.Left ,longest);<br>        longest  =diameter(root.Right,longest);<br><br>        return longest;<br><br><br><br><br><br>    } i wrote this method it has time compleyity of 0(n)",2023-04-13T06:23:20Z,0,1
+Abhishek Sharma,Please make a video for revision of all data structures and algo.,2023-04-10T07:50:20Z,0,0
+Riya Jain,Is there function in python like new?,2023-04-06T17:53:39Z,0,0
+Riya Jain,"Ma&#39;am , I recently joined alpha 4.0 ,I use python <br>please make this video in python . I loved your approaches but not implementing ,<br>I searched syntax of trees  on google and tried lot of codes but couldn&#39;t  .<br>please provide this video in python language.<br>please this is my humble request.",2023-04-06T17:40:27Z,0,0
+Godwin Godfrey,"How I wish I understand the language, unfortunately for me.",2023-04-02T10:15:51Z,0,0
+Free Rabiul,"Label 4 ki depth 4 hai ya 3 hai?? <br>Timestamp <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=7m25s"">7:25</a>",2023-03-30T06:05:00Z,0,0
+Bilal,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=24m54s"">24:54</a><br>*Left subtree",2023-03-29T07:00:05Z,0,0
+Sathish Yadav,Watching you isn&#39;t boring!😄,2023-03-26T07:24:37Z,0,0
+Vijay Bhaskar,Hii if you don&#39;t mind please add subtitles,2023-03-20T04:21:55Z,0,0
+Physics with Chavi,Very long vedio 😭,2023-03-19T02:40:14Z,1,0
+Random,I have a question  in which vid have u taught us superclass??????,2023-03-17T17:11:20Z,0,0
+Srishti Singh,"No doubt Shraddha didi has a decent way of teaching which is very rare nowadays. She makes it easy for the student to adopt the concepts and most importantly, my brain doesn&#39;t ache after this rather I get interested to practice more of it.",2023-03-17T12:09:13Z,10,0
+amit kumar,Mam height of tree me level to 0 se start hota h na,2023-03-15T08:19:32Z,1,0
+All in one,can you upload about B tree,2023-03-12T16:24:59Z,0,0
+Aryansh Sikarwar,Level of a binary tree start with 0 I guess soo,2023-03-12T10:10:06Z,1,0
+Dhivya Sri,"Hi Ma&#39;am, Please add subtitle. It will be <a href=""http://helpful.it/"">helpful.It</a> is my request.",2023-03-08T16:02:09Z,0,0
+Naresh😘,Really mam your teaching way👌 maja aa gya bhut acha explaine lete ho,2023-02-21T15:11:31Z,0,0
+Prince Kumar Yadav,Maam suno  aap ke pass coching krna hai,2023-02-20T01:58:29Z,0,0
+yadhardha Official,hi mam u are telling very fast could u please slowly,2023-02-19T14:49:56Z,0,0
+Dileep Cheekala,Why not in english,2023-02-13T11:19:02Z,0,0
+Gaurav Kumar,"Why we use Math.max(leftHeight, rightHeight) for comparison .  why we  are not using if (leftHeight &gt;= rightHeight ){ return leftHeight +1; } else { return rightHeight; } ; can you explain ?",2023-02-12T10:05:44Z,0,0
+Rizwan Jamadar,@apna college @sharadha khapara @microsoftwalididi you are doing great job lots of love and thanks from us. I have one doubt while calling function what we passed as argument entire tree or only root node ?,2023-02-12T06:45:23Z,0,0
+class journey ,Mam aap bhut great ho.....👍👍👍👌👌,2023-02-10T03:51:19Z,0,0
+Shailesh Kumar,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=55m42s"">55:42</a> What a confidence....",2023-02-07T13:13:06Z,1,0
+Kshama Gautam,Paid courses are available for dsa??,2023-02-04T02:23:04Z,0,0
+vikanshi singh,can we get these codes in c++ too??,2023-01-31T08:04:45Z,0,0
+Kartik Kathuria,Wah Didi Wah Didi Subtree vale me 3 condition ka kaam 8 condition me kara hai,2023-01-27T19:57:28Z,0,0
+Ankit  sharma,Child bana hamesha kya left se start kerte hai kya,2023-01-26T08:06:25Z,0,1
+DEAN tushar,kept  ❤ .,2023-01-22T18:16:20Z,0,0
+Shivam Rai,Inorder me pehle 3 print hoga ya 6,2023-01-21T14:41:11Z,1,1
+Anita Nigam,Thank you so much ma&#39;am very helpful video 😊,2023-01-16T16:00:03Z,1,0
+Ayush,"This playlist looks randomly arranged. Can anyone please let me know which video is first to watch in the playlist, which video is second, till last video. I know the content is good.",2023-01-15T07:54:03Z,0,0
+Bodhisattwa Basu,can anyone tell me how the value of idx is passed without any parameter?,2023-01-09T04:55:23Z,0,0
+RaHuL_PaL_Aspirants,Very helpful video &amp; Thank you sradha didi ❤!!!!!!!!!!!!!!!!,2023-01-05T03:20:47Z,0,0
+Kamran Syed,u talk like sandeep maheswari,2023-01-02T18:17:17Z,0,0
+Upakul,Do watch other creators also,2022-12-25T07:30:53Z,0,0
+Sanju Dhounchak,Subtree of 1?,2022-12-25T02:15:06Z,0,0
+Jaideep Yogish,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=18m39s"">18:39</a>",2022-12-22T17:40:53Z,0,0
+RANGA BHAI,ye live nhi h kya,2022-12-19T16:39:10Z,1,1
+suraj binnewale,please upload Oracle sql series,2022-12-15T18:15:59Z,1,0
+Disha Tarafdar,This is a part of graph theory... It is a important course in Mathematics,2022-12-12T10:34:40Z,4,0
+CodeVert,nice,2022-12-07T16:27:55Z,0,0
+Aashi Pradhan,"Shradha Di for You:&quot;Ye kitni Awesome h Yar&quot;&lt;3<a href=""about:invalid#zCSafez""></a><a href=""about:invalid#zCSafez""></a>",2022-12-06T21:23:06Z,1,0
+Saranya Koneti,Please post data structures through c,2022-12-02T14:50:09Z,0,0
+Anita Patil,Shraddha Didi plz make videos on dbms subject.,2022-11-18T16:09:04Z,0,0
+Hemant Sharma,The only platform i have learnt in the simplest way.<br>Thank you ma&#39;am,2022-11-15T10:28:41Z,2,0
+Toqeer Tahir,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=00h54m02s"">00:54:02</a> - Diameter of Tree (Approach 1)<br><a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=01h03m30s"">01:03:30</a> - Diameter of Tree (Approach 2)<br><br>public static int diameter(Node root) {<br>            if (root == null) {<br>                return 0;<br>            }<br>            int h1 = diameter(root.left);<br>            int h2 = diameter(root.right);<br>            return Math.max(h1, h2) + 1;<br>        }<br>        int h1 = diameter(i.left);<br>        int h2 = diameter(i.right);<br>        System.out.println(Math.max(h1 + h2 + 1,<br>                (Math.max(h1, h2) + 1)));",2022-11-14T13:35:01Z,0,0
+Career choice 💐💐,Please make some videos regarding spring boot,2022-11-14T12:39:23Z,0,0
+CONSUMER,Beautifully explained and was really easy to understand for someone from non coding background 🎉,2022-11-12T06:35:26Z,3,0
+Dhruv Singhal,May I think that Didi<br>We can make or draw tree by using the postorder or inorder traversing -------<br>1. First we find root node with help of pre and post order.<br>2.  Child will come with help of inorder.<br>3. Then other nodes with help of post and pre  order also.,2022-11-11T16:46:29Z,0,0
+Sarvesh Mahadik,"While explaining levels and sub-trees, how depth of level 4 will be 4 ? Will it not be 3?",2022-11-11T13:42:24Z,0,0
+some life lesson,Madam you are making the diameter concept more complicated,2022-11-07T03:36:11Z,0,0
+parag Bansal,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=32m00s"">32:00</a>",2022-11-06T04:41:01Z,0,0
+ANGREJI LEARNER,Mamm such a good job,2022-11-05T11:14:48Z,0,0
+siva mani,"As you worked in Microsoft ,if you explain in english then more number of will get benefited",2022-10-29T03:59:27Z,0,0
+@susmita_jaiswal_official,tqq diii😍😍😍,2022-10-20T16:08:20Z,1,0
+Gaming Profession,Kuchh awaz hi nhi aa rhi,2022-10-19T08:39:42Z,0,0
+Dharmpal Singh,Please suggest us any best DSA book in Java programming,2022-10-18T05:38:58Z,1,0
+Chelsa Daptry,"Hi shradha , could to do a complete video for graphs too?",2022-10-12T15:07:37Z,2,0
+Antima Tiwari,Mam where is graph video,2022-10-08T05:39:07Z,0,0
+NOORULLAH ANSARI,Good explanation with code<br>I am very happy 😊😁<br>Thank you very much,2022-10-05T22:53:58Z,1,0
+the name,Amazing content ma&#39;am ☺️ lots of respect to you guys and especially Shraddha didi for such an awesome teaching skills,2022-10-05T19:01:07Z,17,0
+your smile,l**d kuch samaj nay ara yarr😭😭😭😭😭😭,2022-10-03T14:04:27Z,0,0
+Arun Singh,thank you didi .,2022-10-02T11:16:39Z,0,0
+bhakti 🙏🙏,Didi how I  can apply in Microsoft please help me,2022-10-01T09:45:18Z,0,0
+Pawar Sangram,Mam graph ds main ek video bana dejiye,2022-09-28T09:55:04Z,0,0
+Arthana ps,"Hi Shradda, please upload java + graph tutorial asap",2022-09-25T12:04:41Z,0,0
+bye,"Didi diameter wale function me agr hm daim1 and daim2 n nikale or direct leftsub tree or rightsubtree +1 krke kare to bi to vhi execution h mujhe diam1 and diam2 ka need nii smjh aya is jagah<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=1h02m00s"">1:02:00</a>",2022-09-22T06:16:52Z,0,0
+Sk Samim Islam,Phir tree ko ulta latka dijiye,2022-09-21T06:24:58Z,0,0
+Vinay Youth,"Maam ,<br>At  <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=1h00m33s"">1:00:33</a> ,for left subtree you said that height was 2 how it came as it returns value 3",2022-09-20T11:56:38Z,0,0
+Shikha Tiwari,Di mujhe programming likhana hi thik se nahi ata.....🙍,2022-09-19T13:15:01Z,0,0
+random person,1.00.42 how height will be 5 if left returned 3 and right returned 2 then by adding 1 it will be six  . explain anyone,2022-09-19T02:30:41Z,1,0
+Soumik Sarkar,"Hi Shraddha,<br>I have a doubt here. In IsIdentical part at <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=1h17m51s"">1:17:51</a>, if subRoot is on leaf but root is not on leaf then also it should be a part of the tree right. <br><br>Say rootNodes array in preorder sequence is { 1, 2, 4, 6, -1, -1, 7, -1, -1, 5, -1, -1 3, -1, -1} and subNodes array is {2, 4, -1, -1, 5, -1, -1}. In that case also subNode tree is valid. <br><br>But with this if(root == null || subroot == null) return false;  would eliminate this case right? <br><br>Can you please explain this? It would be very helpful.",2022-09-18T07:01:10Z,8,3
+Sadaf Khan,Ma&#39;am please post video on graph in java. That are very helpful for us.  :),2022-09-16T17:51:13Z,2,0
+Shourov Paul,"Dide java ki tara trees ki vi Koi Keywoard hoti ha , Data struture ki kay keywoard hoti ha",2022-09-13T05:36:57Z,0,0
+Sujit,mine target is not microsoft or google  how much difficulty level is there for other companies.🙃,2022-09-10T16:58:22Z,0,0
+Ayush Patel,Ma&#39;am  please upload video that are left in java DSA 💥 course.,2022-09-08T18:52:45Z,0,0
+Mumuksha,"I dont find this code working for me (build Tree) . Can anyone tell me if ive missed out on something?<br><br>Created a java class called &quot;practise&quot;<br>Getting error - Exception in thread &quot;main&quot; java.lang.ArrayIndexOutOfBoundsException: 8<br>	at practise.buildTree(practise.java:19)<br>	at practise.buildTree(practise.java:23)<br>	at practise.buildTree(practise.java:24)<br>	at practise.buildTree(practise.java:24)<br>	at practise.buildTree(practise.java:23)<br>	at practise.main(practise.java:34)<br><br><br><br>public class practise {<br><br>    static class Node {<br>        int data;<br>        Node left;<br>        Node right;<br><br>        Node(int data) {<br>            <a href=""http://this.data/"">this.data</a> = data;<br>            this.left = null;<br>            this.right = null;<br>        }<br>    }<br><br>    static class BinaryTree {<br>        static int idx = -1;<br><br>        public static Node buildTree(int nodes[]) {<br>            idx++;<br>            if (nodes[idx] == -1)<br>                return null;<br><br>            Node newnode = new Node(nodes[idx]);<br>            newnode.left = buildTree(nodes);<br>            newnode.right = buildTree(nodes);<br>            return newnode;<br>        }<br>    }<br><br><br>    public static void main(String args[])<br>    {<br>        int nodes[]= {5,2,4,-1,-1,5,-1,6} ;<br>        BinaryTree tree= new BinaryTree();<br>        Node root= tree.buildTree(nodes);<br>        System.out.print(root.data);<br><br>    }<br><br>}",2022-09-06T10:58:44Z,0,1
+Soumya Ramakrishnan,"Di I watched this video and it cleared all my doubts regarding trees thank you so much. I have one request can you solve more problems on binary trees asked in amazon, google, microsoft and other  product companies please it will be really helpful. Also other traversals as well like zig zag traversal 😊😊😊😊",2022-09-05T11:36:39Z,4,0
+Raushan Paswan,"Dear Shraddha Didi, you&#39;re doing a mistake in finding the height of the tree. Because in a tree, the height of any node is the number of edges from the leaf node to that node in the longest path. And the height of the root node is known as the height of the tree. If we have no node then the height of the tree is -1 and If we have a single node then the height is 0.<br>Code:<br> public static int height(Node root){<br>            if(root==null){<br>                return -1;<br>            }<br>            <br>            int leftnode=height(root.left);<br>            int rightnode=height(root.right);<br>            <br>            return Math.max(leftnode,rightnode)+1;<br>        }",2022-09-03T11:49:50Z,0,0
+Waleed Amjad,Thankyou !,2022-09-02T20:44:56Z,0,0
+your daily dose of fails,"my version for finding height of tree<br><br> public  static int heightNode(Node root)<br>    {<br>        if (root==null) return 0;  <br>        return 1+ Math.max(heightNode(root.left),heightNode(root.right));<br>    }",2022-09-02T12:31:48Z,0,0
+Yash Raj,"how did the sum of function calculated the sum of the data of each node and not the count just by changing its name to sum..the root data was added by <a href=""http://root.data/"">root.data</a> but how the data of left and right nodes got extracted ??",2022-08-31T06:19:48Z,0,1
+gaurav,"I am very lucky to get this video, really helpful it makes me able to understand how to use recursion and queue and think about tree questions. Thanks Shraddha Di. Keep it up with different content . Best wishes from my side",2022-08-29T17:18:19Z,2,0
+neha sing,Same code gave me index out of bound exception any one have any idea..?,2022-08-29T14:52:32Z,0,0
+Photon,"This is good, especially the diameter implementation. Quickly got one doubt, Can we assume that in the case of Height balanced trees such as AVL Tree and Red Black Tree, the diameter of the tree will always go through the root?",2022-08-29T05:48:10Z,0,0
+Kartik Auti,haard  for beginer,2022-08-27T08:06:10Z,0,0
+Dark Lord,What is static class? Why it is static?,2022-08-22T09:06:58Z,0,0
+Kishan Kanabar,"Hi Mam,<br>Couldnt it be solve it like this to achieve O(n).<br><br>public static int diameterOfTree(Node rootNode)<br>		{<br><br>			if(rootNode==null)<br>				<br>			{<br>				return 0;<br>			}<br>			<br>			if(rootNode.left==null)<br>				<br>			{<br>				rootNode=rootNode.right;<br>				return diameterOfTree(rootNode);<br>				<br>			}<br>			else if(rootNode.right==null)<br>			{<br>				rootNode=rootNode.left;<br>				return diameterOfTree(rootNode);<br>			}<br>			else<br>			{<br>				int heightOfLeft = heightOfTree(rootNode.left);<br>				int heightOfRight = heightOfTree(rootNode.right);<br>			    return heightOfLeft+heightOfRight+1;<br>			}<br>			<br>			<br>		}",2022-08-19T14:41:30Z,1,1
+Learning Shahnawaz,Sardha didi aap sare doubt clear dete h 🙏🙏 so thank you so much 🙏,2022-08-08T15:19:01Z,0,0
+PRATIK NAIK,"Preorder <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=19m10s"">19:10</a> <br>Inorder <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=24m20s"">24:20</a><br>PostOrder <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=27m42s"">27:42</a><br>Level order <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=30m40s"">30:40</a>",2022-08-07T10:23:24Z,1,0
+1205 Saikarthik,maam please explain dry run of recursive code,2022-08-04T09:33:08Z,0,0
+Sandipan Rakshit,So interesting and attractive,2022-08-03T04:17:07Z,0,0
+Keshav Agarwal,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=1h09m42s"">1:09:42</a>",2022-08-02T13:35:34Z,0,0
+Antariksh Sharma,"Exceptional.<br>This approach is through recursion. Can you please share the other approaches too like iterative one or if you already have video on them, then it will be great. I have seen some of the question on leet code where they have specifically mentioned to use iterative approach rather than the recursive one.<br><br>And yes like I said ,your videos are exceptional. Thanks :)",2022-08-02T08:37:47Z,3,0
+Keshav Agarwal,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=23m47s"">23:47</a>",2022-08-01T14:38:40Z,0,0
+Kishor Dige,Thank You,2022-07-28T18:06:14Z,0,0
+ritesh yt,muze chakkar aa rahe... 🙆‍♂️,2022-07-26T07:15:17Z,0,0
+Cinema Clockwork,I love your teaching ma&#39;am,2022-07-24T22:14:56Z,1,0
+Sparsh Tandon,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=50m40s"">50:40</a> it should be 2",2022-07-24T06:33:30Z,1,0
+Abdul Kadir,Correction <br>You can’t create a Unique Binary tree using just one traversal. <br>The tree you created is not Unique hence code is not generalised.<br><br>You can create unique binary tree either using preorder+inorder<br>Or pre order + postorder,2022-07-23T18:20:11Z,2,0
+War Hero 2,Baap re ma&#39;am aap kuch jada hi fast ho code ko bhi thoda samjha sakti ho aap,2022-07-23T06:40:34Z,0,0
+Sayyam Jain,Before starting video: Why you are just particular about placements instead of making people understand concepts for their own use?<br><br>In the Middle: Going pretty well...,2022-07-22T14:33:48Z,0,0
+Vishnu Sharma,Nice knowledge ❤️❤️ Connect❤️🙏🙏👍👍👌👌👌,2022-07-21T08:57:59Z,1,0
+K SHIVA TEJESH NIT AP,can you explain why we are using a static Node class to create a binary tree ? We didn&#39;t do this for linked lists so why is it required now?,2022-07-21T05:58:32Z,2,0
+Shivam Kumar,"Hi Shraddha,<br><br>Hope you are doing well!<br><br>Could you please make a video on GRAPH as well just like you made it for TREE?<br>Hope to meet you soon.<br><br>Thanks<br>Shivam",2022-07-19T17:43:03Z,0,0
+Joy Saha,"Kindly let me know, if my code is correct or not :)<br><br>Homework Problem:<br>int sumOfKthLevel(Node* root, int k) {<br>    if(root == nullptr) {<br>        return -1;<br>    }<br><br>    std::queue&lt;Node*&gt; queue;<br>    queue.push(root);<br>    queue.push(nullptr);<br><br>    int n = 1;<br>    int sum = 0;<br><br>    while (!queue.empty())<br>    {<br>        Node* node = queue.front();<br>        queue.pop();<br><br>        if(node == nullptr) {<br>            if(queue.empty()) {<br>                break;<br>            }<br>            else {<br>                n++;<br>                queue.push(nullptr);<br>            }<br>        }<br>        else {<br>            if(n == k) {<br>                sum += node-&gt;data;<br>            }<br>            <br>            if(node-&gt;left != nullptr) {<br>                queue.push(node-&gt;left);<br>            }<br><br>            if(node-&gt;right != nullptr) {<br>                queue.push(node-&gt;right);<br>            }<br>        }<br>    }<br><br>    return sum;<br>}",2022-07-16T07:44:47Z,0,0
+Siddharth Upadhyay,Thank you so much Shradha :),2022-07-12T11:12:45Z,0,0
+Soumya Saxena,I like the way of your explaining di.. chutaku sa task 😄,2022-07-11T16:59:55Z,0,0
+Realistic Moments,video aisa ho k shuroo k 10 sec dekhte hi like krde.... and here is the video to do so...,2022-07-09T20:09:49Z,0,0
+Mohammad Saqib,zndgi m pehli baar tree smjh aaya hai thanks for this lecture,2022-07-07T20:33:33Z,0,0
+Rahul Jha,background music name,2022-07-07T06:15:41Z,1,0
+Krishna Kakade,Thanks for very good explanation,2022-07-06T15:25:23Z,0,0
+Gautam Kumar,टहनियां ❤️❤️,2022-07-05T19:12:29Z,0,0
+Jay Wagh,what about advance java,2022-07-05T07:49:15Z,0,0
+MicroVirus,"Complete Binary tree in JavaScript.<br><a href=""https://youtu.be/zQiZvnqCBjM"">https://youtu.be/zQiZvnqCBjM</a>",2022-07-04T19:02:51Z,0,0
+Abhishek Choudhary,U teach very well in a very easy to understandable way👏👏👏👏,2022-07-04T15:34:34Z,0,0
+Mohd Avesh Siddiqui,Mam Ek Complete Data Structure And Algorithm<br>Pe Ek Full Video Banaye Beginning Se End Tak<br>Jaise Aap ne C Programming Pe Banaye Hai.... <br>Please......,2022-07-03T18:53:51Z,0,0
+A2 Fan's Army,Pls add this video in c language,2022-07-03T08:38:35Z,0,0
+Noor Tayani,Great explanation ...🪄,2022-07-02T04:40:56Z,1,0
+Adiba Khan,Please upload video here,2022-07-02T02:57:05Z,0,0
+Md Afroj,"Waooo thank you so much,  mai avi avi apka ye trees ka video dhund raha tha😍",2022-07-01T02:24:56Z,0,0
+Shreyash Sonawane,"public static int[] diameter(Node root) {<br>		if (root == null) {<br>			return new int[]{0,0};   //height, diameter<br>		}<br>		int[] hdl = diameter(root.left);<br>		int[] hdr = diameter(root.right);<br>		int dm = hdl[0] + hdr[0] + 1;<br>		return new int[]{Math.max(hdl[0],hdr[0]) + 1, Math.max(dm, Math.max(hdl[1],hdr[1]))}; //height, diameter<br>	}<br><br>I created it another way. first element of array stores height, second element stores diameter. anybody else did it in another way, do share, we&#39;ll learn something new",2022-06-30T18:21:00Z,0,0
+Yogesh Patel,what device and application are you using for drawings?,2022-06-30T18:16:53Z,2,0
+Keshav Agarwal,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=18m17s"">18:17</a>",2022-06-30T11:08:41Z,0,0
+Satendra Dwivedi,"What is  error of given code.<br>class binaryTreeyt{<br>	static class Node{<br>		int data;<br>		Node left;<br>		Node right;<br>		Node(int data){<br>			this.data=data;<br>			this.left=null;<br>			this.right=null;<br>			<br>			<br>		}<br>	}<br>	static class binryTree{<br>		static int idx=-1;<br>		public static Node buildTree(int nodes[]){<br>			idx++;<br>			if(nodes[idx]==-1){<br>				return null;<br>			}<br>			Node newnode= new Node(nodes[idx]);<br>			newnode.left=buildTree(nodes);<br>			newnode.right=buildTree(nodes);<br>			return newnode;<br>		}<br>		<br>	}<br>	public static void main(String[]argd){<br>		int nodes[]={1,2,3,4};<br>		binryTree t= new binryTree();<br>		Node root= t.buildTree(nodes);<br>		System.out.println(root.data);<br>	}<br>}",2022-06-29T08:32:45Z,0,0
+carlos dorado,she is speaking in english? I dont understand anything :S,2022-06-28T17:04:29Z,0,0
+Breaking Bad,Interesting topic💀,2022-06-28T12:35:09Z,0,0
+Vikas Mishra,"on the time 56 mins, for the problem Diameter of the tree, you have used a non-binary tree, but we were solving the problem for a binary tree",2022-06-24T04:59:15Z,0,0
+Kumaar Balbir,Creating unique binary tree from preorder traversal only is not possible. We are only known to root node of the tree but leftmost node and rightmost node is still unknown. So the above method buildTree is gonna create any random tree which is satisfying the known condition. Btw BST is possible. correct me if I am wrong.,2022-06-22T15:40:26Z,1,0
+ADARSH SHRIVASTAVA 19BAS10050,<i>_do good _ better __than take rest__</i> for the best.,2022-06-22T12:26:39Z,1,0
+Vivek Paliwal,You should make 3 hours vedio for each topic and it&#39;s all imp interview questions. For example binary tree and all its 20 important interview questions with solutions explained,2022-06-22T10:20:40Z,6,1
+Deepa Kumar,Kindly help to post all topics of playlist because this is really needed.....GRATITUDE to you all,2022-06-22T02:39:58Z,3,0
+buggy bug,"very informative, thankyou Shraddha",2022-06-20T15:45:42Z,0,0
+Parna Das,ma&#39;am pls post java+(other)dsa because its really helpful,2022-06-19T09:35:19Z,1,0
+Yogesh Kumar,Ma&#39;am i request you start DSA in using &#39;c&#39; please ma&#39;am I will request 🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏,2022-06-15T16:05:04Z,0,0
+Aseem Sharma,"Diameter is related to the path of tree which is considered as edge between two nodes so counting nodes would not be the correct answer, what if it is asked to consider edges and not the nodes. Here with given example the answer would be 4 and not 5.",2022-06-15T08:19:10Z,0,1
+AS Creation,"Nice playlist.Please make videos on remaining topics such as graphs, dynamic programming, etcc",2022-06-08T07:52:43Z,4,0
+TEZU ENTERTAINMENT,Jabardast,2022-06-06T16:11:22Z,0,0
+Shivam Vishwakarma,"Isme ye nhi samjh aa rha, sumofnode and countof node dono me ham specify to kiye nhi ki node ko count karna h ya node ki value ko, to apne aap kaise return kar rha h sahi value",2022-06-06T13:57:56Z,0,0
+Khalnayak,"At around <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=17m00s"">17:00</a> we methods declared as static... Why did we do so... Couldn&#39;t we have just declared all the variables,  classes, and methods as non static?",2022-06-06T08:25:59Z,0,1
+our culture,Mam avl tree ke bare me batayen,2022-06-05T16:43:49Z,0,0
+Shailesh Kumar,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=8m35s"">8:35</a> Didi was trying to copy dr. strange",2022-06-03T08:38:51Z,0,0
+Shailesh Kumar,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=6m53s"">6:53</a> Didi wo aap hi hai... jinhone &quot;C++ with DSA&quot; wale course me level one ko level zero bola hai😁😂🤣",2022-06-03T08:36:46Z,0,0
+Anand Raj,Please make a playlist of java sql<br>Because it is very difficult to understand <br>And you explaining method is amazing. please help me,2022-05-29T13:22:34Z,2,0
+Anant Saraf,Ma&#39;am root is always at level 0,2022-05-28T17:36:03Z,0,0
+Ash,Could you please teach in English as well?,2022-05-28T06:14:15Z,1,0
+PRINCEKUMAR PATEL,very helpful,2022-05-28T05:05:20Z,0,0
+Top 10 GK,I am really appreciate your efforts,2022-05-27T16:21:32Z,0,0
+Top 10 GK,Sis I looking for graph and hash table I hope you will post soon,2022-05-27T16:20:08Z,0,0
+Baldevgogaly official,Ma&#39;am please complete this playlist ...,2022-05-27T04:59:57Z,0,0
+Tushar Naagar,"Is this last video on Java .<br>If not , please mam upload further topics i want to complete.",2022-05-26T11:03:16Z,0,0
+Maneesh Mondal,Mam please add the further videos(Dynamic Programming) on this  playlist . This playlist is very helpful for us .,2022-05-26T06:04:45Z,2,0
+Football fanatic ⚽,Can anyone please tell me who this girl is ? I wasn&#39;t active in yt for around 2 yrs. This channel used to be Aman Bhaiya&#39;s.. what happened ?,2022-05-25T17:47:09Z,0,0
+Football fanatic ⚽,Can anyone please tell me who this girl is ? I wasn&#39;t active in yt for around 2 yrs. This channel used to be Aman Bhaiya&#39;s.. what happened ?,2022-05-25T17:46:41Z,0,0
+Veerendra Shukla,Can you please provide graph video/training with Java?,2022-05-25T01:12:22Z,2,0
+deepak bisht,Plz complete this course,2022-05-24T17:28:17Z,0,0
+ATUL YADAV,please complete this playlist,2022-05-24T12:06:11Z,2,0
+Tanvi Gupta,hey..can you make your videos in PYTHON...as its getting famous everywhere..it will be helpful to understand python&amp; datastructures,2022-05-21T10:43:25Z,3,0
+Siddartha Thatikonda,"waiting for the continuation of the course, please upload vedios of BST,AVL,RED BLACK TREES,GRAPHS,..<br>I REQUEST TO START A COURSE ON DESIGN ANALYSIS AND ALGORITHMS (DAA)..",2022-05-19T14:43:56Z,2,0
+Dimple Sahu,Ma&#39;am plz Complete with all left topics  asap,2022-05-18T17:42:37Z,0,0
+Ashish Chaudhary,"when will you teach hashing and other topics in java+dsa, or do we have to learn from c++ list?",2022-05-18T15:28:11Z,4,0
+Bavan,Please continue,2022-05-18T10:36:31Z,0,0
+Kevin Shibu,Ma&#39;am please upload concept of java,2022-05-16T10:37:18Z,0,0
+The Kids family ,mam pls msg me  for gudiance i have so many problem related  to  my course,2022-05-16T01:29:35Z,0,0
+Rohit Kumar,Please complete this DSA course in Java as soon as possible as my college placements is going to start from next month,2022-05-15T20:03:05Z,0,0
+Joe,Provide subtitles in English,2022-05-15T13:22:07Z,0,0
+yash Londhe,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=45m00s"">45:00</a>",2022-05-15T11:45:38Z,0,0
+Rishav Anand,Pls upload video fast mam,2022-05-14T11:07:18Z,0,0
+GoPro THink,"I know/think you have a reason to not upload any lectures video, but you have understand that many learners are connected to this course and depend on this because they are used to your teaching techniques and now they are helpless. At least you tell us time or reason so that we can move on and save us precious time. Thanks for teaching us.",2022-05-13T16:22:53Z,3,0
+aasiz_online,"Please complete this awesome series. Some videos on Hashmap, graph and DYnamic programming etc whenever you get time if possible as soon as possible",2022-05-12T18:54:52Z,12,0
+Ezzy learn,Mam.. atleast check one time before uploading..inorder vala part dekho..glt bola apne😅,2022-05-12T14:16:18Z,1,1
+prachi tembhurne,Advanced Python with oops and dsa plzzz,2022-05-12T09:10:50Z,0,0
+Sami ullah,Waiting for more videos,2022-05-12T08:12:41Z,0,0
+Jay Sohani,We need next topic as soon as possible.,2022-05-11T16:24:32Z,0,0
+Sniper Kyle,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=14m32s"">14:32</a>",2022-05-11T08:04:37Z,0,0
+manpreet Kaur,Comment from cmd,2022-05-11T01:50:16Z,0,0
+manpreet Kaur,Very Good content,2022-05-11T01:45:56Z,0,0
+Ajay gunti,Didi please DSA kaa course continue Karo... please as fast as possible,2022-05-10T15:07:34Z,0,0
+Jay Bhogaita,Perfect teaching thank you for guide in hindi especially,2022-05-10T07:16:41Z,0,0
+𝙸𝚗𝚒𝚖𝚒𝚝𝚣𝚣,Shraddha didi and aman bhaiya i love both of u u guys are doin amazing work but it&#39;s my humble request to complete this playlist I am waiting from last 1.5 months u guys are bringing new tutorials of new languages (they are also amazing) but u have forgot bout this playlist so plz complete it as soon as possible 🙏🖤<br>BTW u guys are amazing lots of love 🖤,2022-05-10T03:36:51Z,3,0
+VPinvin,Kindly complete this java + dsa playlist,2022-05-09T21:08:45Z,0,0
+truth,"I saw various courses of yours<br>It&#39;s amazing, but non of them seems complete. 🥺",2022-05-09T15:58:01Z,2,0
+Ashi vats,di pls upload more videos as soon as possible,2022-05-09T13:50:50Z,0,0
+AVTAAR,Mam If you want to complete full series then upload more videos otherwise notify your subscribers that<br>you are unable to complete this series now,2022-05-09T07:14:03Z,0,0
+Nitish sah,please upload more videos,2022-05-09T03:02:30Z,0,0
+Qurd edu,Please in English,2022-05-08T19:46:28Z,1,0
+Sahil khan,mam please upload videos,2022-05-08T14:08:47Z,0,0
+Akash Gupta,"After watching the video, I tried in order traversal on leetcode but in that it was a return type function: public TreeNode increasingBST(TreeNode root).  I tried hard to do it but couldn&#39;t do. Please help me to solve it.",2022-05-08T14:03:15Z,0,0
+clover,data structure in .c please,2022-05-07T17:14:36Z,0,0
+Ujval Gupta,"Hi Shradha didi,<br><br>Aapne static nested class wagera toh padhaya hi nahi, aapki dsa sheet ka pehla question dekh ke hi demotivation sa ho gaya<br><br>Please look to it on a serious note<br><br>Thanks",2022-05-07T12:39:03Z,0,0
+Trashar Varshney,Plz post graph video in this playlist,2022-05-06T10:05:30Z,0,0
+Anurag Kumar,please finish it fastly i&#39;m very excited!,2022-05-06T09:53:44Z,0,0
+khushal trivedi,Nice content,2022-05-05T19:22:38Z,0,0
+Rana Ali Haider,And makE other video  is &quot; heep sorT &quot; ?,2022-05-05T15:31:30Z,0,0
+Rana Ali Haider,Assalm o Alikum !<br>I hpoe U finE anD verY well 😍<br>I humblE requedt please make video on &quot;what is Graph ? AnD Complete working ?<br><br>Thanks ☺,2022-05-05T15:29:20Z,0,0
+Fatmi vlogger,Design algorithm and analysis pr video banaie plz,2022-05-05T05:39:33Z,0,0
+Gaurav Batra,Didi please make videos on  Graph in DSA. It is very difficult to understand.....,2022-05-05T03:32:15Z,0,0
+Prathamesh Narayane,Please complete this series as soon as possible please .we really need it .,2022-05-04T08:04:15Z,0,0
+ABHAY GUPTA,"You did a big mistake I&#39;m so confuse ... 🤞🤞🤞🤞🤞 Plzz z.    Fix it .. <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=42m25s"">42:25</a> sec.. se mistake Start hui h .. plz..  🔥🔥🔥fix it.....",2022-05-03T21:25:16Z,0,0
+ABHAY GUPTA,"Hey apne count of nodes me <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=42m30s"">42:30</a> sec me 🤞 mistake ki  x+y hoga na ❣️🔥🔥❣️❣️😘❣️😘❣️😘 but you teach very well .... I&#39;m studing in bca 2nd sem but me environmental studies ni padh pa rha kuch btaiye iske liye.. 🤞🤞🤞🔥🔥",2022-05-03T21:17:30Z,0,0
+Raju Dubey,"Didi, aap ek dynamic programming pe video banaiye, please",2022-05-03T17:28:31Z,0,0
+Aniket Jain,When the BST lecture are uploadings ❣️✨✨ we are waiting,2022-05-03T13:26:28Z,0,0
+sujata patil,Please create dsa in python as well python all tutorials...,2022-05-03T05:45:29Z,0,0
+Sunny sharma,Kisi binary tree ko banane ke liye pehle uska left node likhna jaruri h ya right????,2022-05-02T08:30:01Z,0,0
+LB HUSAIN ART,Please start me 2 ad n lagaya kre,2022-05-02T04:34:14Z,0,0
+darsh parikh,When will the Binary search tree video be released?,2022-05-01T19:23:59Z,0,0
+Mamun Ahmed,Please continue the series,2022-05-01T12:31:32Z,1,0
+Shuvo Ahmed,Her level of explanation is outstanding ❤️🌼,2022-04-30T21:48:43Z,5,0
+Pro Player Ak_47,Love the way you teach.....,2022-04-30T15:30:29Z,1,0
+Hack With Raghav,please update this course,2022-04-30T15:16:37Z,0,0
+Abhishek Ganorkar,Complete the playlist please,2022-04-30T05:49:23Z,0,0
+Anurag kumar gupta,"Timestamp: <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=17m38s"">17:38</a><br><br>Line 16, buildtree is having array as input.<br><br>Line 23 and 24<br>Buildtree is having integer as input.<br><br>Will it work?",2022-04-30T01:36:57Z,2,1
+aditya mathur,"Mam, when will you upload upcoming and complete this java with DSA course  ??",2022-04-28T17:40:17Z,0,0
+Chandan Kumar,DSA bhut easy way samjhate ha mam ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️,2022-04-28T08:13:33Z,0,0
+Tarun Ambaldhage,"Where are continuation videos, it&#39;s already been 2 months!!",2022-04-28T07:13:59Z,2,0
+Siddhesh Patil,In tree class buildTree method there should this base case at the top otherwise it will throw array out of bound on large testcases<br><br>if (i &gt;= nodes.length) return null;,2022-04-28T06:59:49Z,0,0
+ARINDAM SOMADDER,Mam this course is very much helpful..mam can u add the advance topics of java in this course..!,2022-04-27T20:17:13Z,2,0
+Muhammad Awais,"When the remaining videos will be uploaded? You have not covered the graphs, dynamic programming etc",2022-04-27T06:15:17Z,0,0
+let's Do!,Your java playlist is incomplete please do that..,2022-04-27T02:52:21Z,0,0
+TECHNO JAVA,Mam please share full data structure using java code,2022-04-26T15:53:08Z,1,0
+Shivam Baranwal,aur video kab ayega,2022-04-26T15:37:46Z,0,0
+Kavya Agarwal,didi plss  aage ki playlist upload krdo,2022-04-26T13:30:56Z,0,0
+Lalit Metkar,"Suggestion:<br><br>Please keep intro music loudness to the same as that of your voice, it is too loud in start",2022-04-26T07:13:36Z,0,0
+KIRAN KALE,Baki playlist upload nhi hui hai @aman Dhatarwal 2 months pehle thi last video,2022-04-25T17:00:56Z,0,0
+Màyánk Bhargàvá CSE,Please continue this course,2022-04-25T13:26:01Z,0,0
+Rajat Jain,"Cutie Maam c programing m bhi tree Padhao <br>Love from jaipur,Rajasthan",2022-04-25T09:22:35Z,1,0
+stackOverflowed,Another level of explanation 💯✅,2022-04-24T04:31:13Z,8,0
+AninExclusive,"aman bhaiya, please upload a video of graph.",2022-04-23T14:03:53Z,0,0
+Uzair Kalf,mam jab khatam hi nhi karna he to shuru hi q kya 😔,2022-04-22T10:44:52Z,0,0
+Muhammad Yasin,Can you please ask me the spec. of your laptop??,2022-04-22T05:19:50Z,0,0
+Gucci Bro,"The diameter of binary tree question seemed to be tough throughout...i&#39;m still not much clear on it, rest of the questions were explained clearly though.",2022-04-21T21:55:15Z,2,0
+Shivam Rathour,You are my brother bittu&#39;s love but only in dreams but he is true innocent in this feel,2022-04-21T04:10:47Z,0,0
+Pankaj mahawar,Sharda ma’am bologe <br>Di kyu bole,2022-04-20T16:53:23Z,0,0
+Deekshitha Pendela,Mam plz upload mam we are waiting for your videos,2022-04-20T08:15:09Z,1,0
+Shikhar Shukla,Only 194k peoples are consistent 😏,2022-04-20T05:45:47Z,0,0
+Ekansh Oberoi,didi plz complete it already completed the rest of the playlist plzz,2022-04-18T19:35:30Z,0,0
+Istkaar Ali,"Mam, this java + DSA playlist is amazing. It helped me a lot. Thanks a lot. Ma&#39;am I request you to post videos on java + DSA as fast as possible. These are really helpful.",2022-04-18T07:47:47Z,10,0
+Unemployed CSE,Awesome 💞☺️,2022-04-18T03:32:24Z,0,0
+Deekshitha Pendela,Mam plz post videos...we are waiting for your videos on java dsa,2022-04-14T14:22:19Z,2,0
+CareerPages,Please update course regularly,2022-04-14T11:11:04Z,2,0
+Eaxme Tak,Post the next video ma&#39;am please,2022-04-14T03:16:24Z,0,0
+Shubham Kumar Deshmukh,AWesome course.<br><br>By when can we have the binary search tree video ?,2022-04-13T18:10:28Z,3,0
+tejas ukalkar,when can we get video on heaps?,2022-04-13T06:37:41Z,0,0
+Akshit Saxena,"where is graph,avl etc?",2022-04-13T00:30:27Z,0,0
+Harshal Sengar,Didi aapne starting me buildtree static kyu banaya,2022-04-12T17:45:53Z,0,0
+Mayank Goyal,Shradha di please keep posting videos in this course,2022-04-12T16:57:48Z,0,0
+Captain,"&quot;Apna count&quot; <a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=44m28s"">44:28</a> waah didi waah 😂😂",2022-04-12T14:44:01Z,0,0
+Shivam Gupta,Do you forget this series?,2022-04-10T13:21:45Z,2,0
+Vidhan Rathore,I request you to make such video for graph also,2022-04-10T04:57:25Z,0,0
+kaustubh sonar,"Shraddha di please upload more videos on dynamic programming, graph, trees",2022-04-09T12:23:04Z,0,0
+Siddhant Chavan,kya sikha rahe ho bhai? Static class ko initialize kar rahi he bandi,2022-04-09T11:30:03Z,0,0
+aayushi aggarwal,please post the videos of next topics also,2022-04-09T10:27:41Z,0,0
+rushikesh choudhary,"Hey shraddha , I just completed this compelte series on java and it was the most amazing thing i had ever learnt. <br> I request you to plz continue this series and also bring lectures on advance java topics. I really love the way you teach and your relly INSPIRING. <br> THANKYOU  for the effort your taking  to tech us.",2022-04-09T07:45:46Z,8,2
+Anime_XO,Can u teach us DS using C according to new NEP-2020 for BCA.. Just programming   I have exams in 6 days if possible kindly make a easy video for us 🙏🏻,2022-04-09T07:08:40Z,3,0
+Rishabh Bhatnagar,When can we expect this playlist to finish? 🤗<br>Already completed this much.,2022-04-09T07:03:18Z,3,0
+Ritesh,Di please upload questions from codechef and codeforces,2022-04-08T20:22:49Z,0,0
+Shailesh Kumar,"//Solution of Last Question(Sum of nodes at Kth level)<br><br>import java.util.LinkedList;<br>import java.util.Queue;<br><br>class MyTree{<br>	static class Node{<br>        int data;<br>        Node left;<br>        Node right;<br>        Node(int data){<br>            this.data=data;<br>            left=null;<br>            right=null;<br>        }<br>    }<br>    static class BinaryTree{<br>        int idx=-1;<br>        Node buildTree(int[] nodes){<br>            idx++;<br>            if(nodes[idx]==-1)<br>                return null;<br>            Node node=new Node(nodes[idx]);<br>            node.left=buildTree(nodes);<br>            node.right=buildTree(nodes);<br>            return node;<br>        }<br>    }<br>	static int sumOfNodesAtKthLevel(Node root, int k){<br>        int sum=0;<br>        int level=1;<br>        if(root==null)<br>            return 0;<br>        Queue&lt;Node&gt; queue=new LinkedList&lt;&gt;();<br>        queue.add(root);<br>        queue.add(null);<br>        while(!queue.isEmpty()){<br>            Node currNode=queue.remove();<br>            if(currNode==null){<br>                level++;<br>                if(queue.isEmpty())<br>                    break;<br>                else<br>                    queue.add(null);<br>            }<br>            else{<br>                if(level==k)<br>                    sum+= <a href=""http://currnode.data/"">currNode.data</a>;<br>                if(currNode.left!=null)<br>                    queue.add(currNode.left);<br>                if(currNode.right!=null)<br>                    queue.add(currNode.right);<br>            }<br>        }<br>        return sum;<br>    }<br>    public static void main(String[] args) {<br>        int[] nodes ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};<br>        BinaryTree tree= new BinaryTree();<br>        Node root= tree.buildTree(nodes);<br>	int k=3;<br>        int sum=sumOfNodesAtKthLevel(root, k);<br>	System.out.println(&quot;Sum = &quot;+sum);<br>    }<br>}",2022-04-07T10:48:50Z,2,0
+Rohit Halsana,Ma&#39;am awesome video .Really helped me understand the topic deeply in class 12th.,2022-04-07T06:33:00Z,2,0
+Masoom Raza,Please continue the classes,2022-04-07T05:19:24Z,0,0
+Ghumkkad,Is this full course ?,2022-04-07T03:26:33Z,0,0
+Helium 🔭,Dii!! 2 months ho gaye... Pls naya vdo laao 🥺,2022-04-06T17:25:34Z,0,0
+abhi77 ellandala,sir/ma&#39;am I am humbly requesting you that please complete this Java DSA course as quickly as possible!,2022-04-06T16:45:23Z,1,0
+Honey Nod,"Hello Mam, my study is paused. Please post the next lesson. Thanks a lot for your efforts and god bless you for all the happiness",2022-04-05T21:27:18Z,4,0
+Ayush Srivastava,aage ka to banao video aab kya placement ke baad graph hash padhe kya,2022-04-05T18:14:42Z,0,0
+Anurag Jha,Mam can you complete this in April bcz companies are coming may,2022-04-04T19:21:17Z,0,0
+Rajkumar,"Hello Dear plese arrange Compleat java course, arrange in one video besic to advanced<br>video how is long no matter compress all titoutials in one video. it is very Helpfull to all.",2022-04-04T12:05:03Z,0,0
+Gauri Saxena,Please continue this course as soon as possible...,2022-04-04T06:48:41Z,1,0
+CS59Girase Ankita,Maam plzz video jaldi post kijiye na,2022-04-03T06:15:58Z,0,0
+tanishq kolhatkar,Mam i request u to make C++ Dsa Course as soon as possible,2022-04-03T03:24:55Z,0,0
+vikas nayma,Please upload next video as soon as possible plzzzzzzzz,2022-04-01T16:30:11Z,0,0
+pinky Pal,plz make video on doubly or circular link list,2022-04-01T14:19:21Z,0,0
+Shivam Gupta,where are more videos,2022-04-01T07:18:12Z,0,0
+Minhaz Rahman,Why you don&#39;t finished the playlist one by one ..<br>you always jump one playlist to another playlist as a result we all stuck,2022-03-31T07:11:10Z,0,0
+Anish Kumar,please make similar video  on Graph as well as DP plz,2022-03-31T04:06:06Z,1,0
+Love singh,please continue java+DSA series that is now on pause😊,2022-03-28T09:37:35Z,0,0
+MISSION_361,"Please update course on regular basis,<br>It is very helpful",2022-03-28T03:31:13Z,2,0
+Fatima Tabassum,Plz complete this course,2022-03-27T10:16:58Z,0,0
+novice trader,didi please upload next lecture,2022-03-27T04:51:00Z,1,0
+pinky Pal,plz make video on hashing topic,2022-03-25T17:19:31Z,0,0
+Gopendu Manna,didi baki k videos??,2022-03-25T16:42:05Z,0,0
+Manish Yadav,Ye kaun sa compiler hai please Reply..anybody,2022-03-25T08:01:18Z,0,0
+Sirisha Duddukunta,Please continue Java DSA,2022-03-25T04:35:09Z,0,0
+Monika singhal,please continue the series,2022-03-24T14:12:47Z,0,0
+Harsh Vardhan,"hi,Full Stack developer is not done yet when did new Videos come? please make it, me and my friends are waiting",2022-03-24T14:12:08Z,0,0
+Juhi Sharma,Please upload full video 🙏🙏🙏,2022-03-24T11:36:52Z,1,0
+Satyam Mishra,Thank you mam very much for this course...... Please  mam complete  this couse for competitive coding also🙏🙏🙏as u did in c++ course.... Its a humble request  to complete  it as soon as possible  mam please 😭🙏,2022-03-23T15:23:41Z,3,0
+Abhilash Bhyrava,"<a href=""https://www.youtube.com/watch?v=-DzowlcaUmE&amp;t=3m39s"">3:39</a> ye kis bande ko banaya drawing🤣🤣",2022-03-23T07:26:18Z,0,0
+Guru Prakash,Please upload next lecture,2022-03-23T03:25:56Z,0,0
+VINAY SINGH,Please upload next video,2022-03-22T16:29:18Z,0,0
+Vishal Nimbalkar,post video,2022-03-22T14:10:31Z,0,0
+Himanshu Arya,Please complete playlist,2022-03-22T03:22:11Z,0,0
+CR 7,When is next video coming??,2022-03-21T14:04:49Z,0,0
+Aman Verma,Didi pls complete this course as soon as possible,2022-03-21T12:29:38Z,0,0
+Saiyad Sakib,Meem next lect kab aayega..,2022-03-21T11:34:33Z,0,0
+Abhishek Dubey,Please post more videos on DSA,2022-03-21T11:08:43Z,1,0
+RAJA,Thanks teacher,2022-03-21T09:45:46Z,0,0
+sri vamshi,When can we expect next episode waiting from long time,2022-03-21T09:05:42Z,0,0
+All is here,Didi aap konsi company main work karti ho,2022-03-19T02:55:34Z,0,1
+Chetan Kuhite,plz upload video now 1 month is pass there is no video,2022-03-18T10:48:14Z,0,0
+Iqbal Hossain,I request you to upload the video on java + DS as fast as possible.  Really helpful and easily understandable,2022-03-17T15:21:08Z,3,1
+Shivam Gupta,You are one month late,2022-03-17T13:12:10Z,0,0
+Kirti Gyanani😜,Mam android programing pr bi videos upload kro 🙏🙏,2022-03-17T08:03:46Z,0,0
+ARUNA CHOWDHURY,"Didi please continue this JAVA course.........❤️ From JU, Kolkata",2022-03-17T05:52:10Z,2,0
+Nik status 07,waiting for next video!!,2022-03-16T06:34:17Z,1,0
+Galaxies Gaze,Awesome video ...<br>please reply about the Next Video,2022-03-15T17:05:55Z,0,0
+Priyanshu Vettori,I have never seen a better explainer,2022-03-15T13:47:08Z,4,0
+Satyam Mishra,Mam please  jaise C++ ki 226 vedios bnayi vese iski bhi bnado please 🙏🙏🙏🙏🙏🙏🙏,2022-03-15T06:34:47Z,1,0
+Tahir Nawaz,"Thank you didi very helpful video God bless you keep it up,",2022-03-15T05:44:29Z,0,0
+Mohammedzayan Patiwala,These content is so valuable. Please upload more videos on DS + JAVA.,2022-03-14T14:39:55Z,3,0
+Siddhanuja Kamble,shraddha next video aaj hi upload kardo plz,2022-03-14T10:53:13Z,0,0
+Uday Varshney,Mam requested you to make video on graph in java.,2022-03-13T16:19:21Z,1,0
+Gaurav Kumar,Thank you so much mam for your precious videos that really help me a lot.....Ma&quot;am could you please make a graph DS video??,2022-03-13T13:41:19Z,2,0
+Yuvraj Jha,Mam Plz continue DSA SERIES.,2022-03-13T07:51:25Z,3,0
+Anchal Singh,"Graphics user interface (gui),Abstract windows tool (awt),swing",2022-03-12T20:17:07Z,0,0
+Mitanshi Mandloi,"Mam, this java + DS playlist is amazing. It helped me a lot. <br>I request you to complete this playlist as soon as possible. It will be very helpful.",2022-03-11T19:39:05Z,104,3
+Aditya Kayal,"static void levelPrintTree(Node root, Queue&lt;Integer&gt; q,int idx) {<br>            if(root==null || (root.left==null &amp;&amp; root.right==null))<br>            {<br>                while(!q.isEmpty())<br>                    System.out.print(q.remove());<br>                return;<br>            }<br>            if(q.isEmpty() &amp;&amp; idx==0)<br>            {<br>                q.add(root.data);<br>            }<br>            idx++;<br>            if(!q.isEmpty())<br>                System.out.print(q.remove());<br>            if(root.left!=null)<br>                q.add(root.left.data);<br>            if(root.right!=null)<br>                q.add(root.right.data);<br>            levelPrintTree(root.left, q,idx);<br>            levelPrintTree(root.right, q,idx);<br>        }<br><br>to call from main I used: tree.levelPrintTree(root,q,0);<br><br><br>Didi, I wrote this code by myself to print bfs, but it prints without the next line, is there any way to get nextline in this code?<br>Community, please help!",2022-03-11T18:00:12Z,0,0
+Ak gupta,Mam please upload next lecture which is&quot;BINARY SEARCH TREE&quot;,2022-03-11T16:55:13Z,0,1
+Yash Upadhyay,Shuruaat mein 10 lecture jaldi daaldo fir mara lete hain ye log,2022-03-11T14:58:33Z,0,0
+Tarun Pahuja,"Every problem can be viewed as pre post or inorder traversal. Count of nodes, sum of nodes, height of tree, diameter = post order,",2022-03-09T18:37:24Z,3,0
+Roshan Raj,is this complete course no more videos are uploading by apna college,2022-03-09T16:44:09Z,0,0
+NIKHIL GOUD,"Mam, Could you please complete the series as soon as possible? It would be great help for us.",2022-03-09T10:27:33Z,6,0
+Raavanan rocks,Pls complete this series 🔥❣️❣️❣️,2022-03-08T14:48:48Z,2,0
+nakul singh jadon,Is this course ended or there are more videos,2022-03-08T08:28:11Z,0,1
+Ashutosh Nautiyal,"Thank you  mam, from the bottom of my Heart.",2022-03-07T21:54:59Z,1,0
+Asifa Shaik,Mam please post videos as soon as possible we are eagerly waiting for your videos and we want complete course as soon as possible,2022-03-07T08:41:26Z,0,0
+KOUSTUBH RELEKAR,Di please video jaldi jaldi daalo na age ka bhi padhna hai,2022-03-07T04:29:43Z,0,0
+Shefali Shrivastava,"Please provide spring concepts also in your videos, they are really helpful",2022-03-06T18:37:41Z,2,0
+RAJKAMAL YADAV,mam....waiting for Dynamic programming lecture.,2022-03-06T16:20:54Z,1,0
+English with Bihari,Please update java +dsa,2022-03-05T09:22:19Z,0,0
+WEB DEVELOPER AT DBG,Outstanding diii.. Upload more DSA Video Tutorial.. Please🙏🙏🙏,2022-03-05T01:27:38Z,0,0
+karan,Can arts students learn coding online and get a job.,2022-03-04T16:10:33Z,0,0
+Shaili Dwivedi,"Didi you didn&#39;t posted new video in this series , will you continue it please 🥺 I want more videos soon <br>Please don&#39;t leave us in middle ,we are loving your java placement series.",2022-03-04T06:18:52Z,16,1
+Brajender singh Dhaked,Please post vedio mam,2022-03-03T21:21:33Z,0,0
+Hearty melodies,I&#39;m getting error I.e arrayindexoutofrange please can I know the reason,2022-03-03T13:18:45Z,1,0
+Creativity Point,"Plzzz, upload next part ASAP. The whole playlist was very helpful. Thanks",2022-03-03T11:42:57Z,4,0
+Randhir kumar,Mam video continue kre...I request u🙏🙏🙏🙏🙏,2022-03-03T04:08:23Z,1,0
+priawart singh,"When I am watching your videos ,then my mom sees your videos she thinks that I am watching Kathak ..  due to your waving hands continuously🤣..",2022-03-02T16:30:21Z,0,0
+kiran gill,Plz upload the next videos asap,2022-03-01T11:55:23Z,0,0
+ShortStoriesCafe,Very nice explanation.. which gear you use for these videos? The link in description is not working 😕,2022-03-01T09:01:12Z,2,0
+Keerthi,"Great work, keep it up gal :)<br>But you have missed few corner cases, tell me if you want to know.",2022-03-01T08:06:13Z,2,0
+Pawan kumar,"How to decide when to use Pre-order, InOrder or Post order traversal?",2022-02-28T14:09:00Z,2,0
+vihaan choudhary,when will you complete all lecture or it is completed.,2022-02-28T08:36:36Z,0,0
+Tarasankar Pratihar,Pls teach Java for beginners,2022-02-27T18:14:43Z,0,0
+AJAY KUMAR,Pls provide more videos on  java dsa topics as c++ course has,2022-02-27T16:17:50Z,0,0
+Chetan Kuhite,next video??,2022-02-27T08:12:32Z,1,0
+Shruthi,mam ur videos are to the point and directly just absorbed to head...pls post videos on this java dsa regularly mam...it is veryyy useful,2022-02-26T17:20:25Z,8,0
+Devi Kumavath,Next video please 🙂......,2022-02-26T13:31:36Z,1,0
+Rahul kumar,Mam pls complete the ds algo with java sheet as fast as possible pls...🙏🙏,2022-02-25T20:09:27Z,0,0
+Mahadev Prasad Pal,Kindly add chapter time stamps to long videos. Just a suggestion.,2022-02-25T13:32:49Z,2,0
+Subham Mukherjee,Please make a video on HashMap,2022-02-25T11:38:01Z,1,0
+Asa Butterfield,&quot;2 unavailable videos are hidden&quot; what is this mean???,2022-02-24T13:54:38Z,0,0
+Piyush,I requested you Guys is courses pr bhi thoda sa focus kiya jayee....because a lot of students focusing on java as well.,2022-02-24T10:42:07Z,2,0
+Bablu Verma,Super  in the World,2022-02-24T08:48:08Z,0,0
+Pritesh Majevadiya,"mam ho sake to aap code vita ke bhi video banana jarur , abhi code vita hoga to ham sabako usaki jarurat  hai",2022-02-24T05:04:18Z,0,0
+Pritesh Majevadiya,"Hi mam , aapka koi javab nahi , aap baut achchi tarah se explain karati hai , mene collage me bhi  Java sikha tha lekin ab lagata hai vo to kuchh sikha hi nahi ,  Thank you for fantastic tutorial . kya aap codevita ke previous question ke videos dal sakati hai ??",2022-02-24T05:03:12Z,0,0
+Shreyas Kore,YA pls complete this as early as possible plssss.....🥺,2022-02-24T03:49:24Z,3,0
+Ponmurali Jeyaprakasam,Mam i request you to put videos in english (i am from south india i cant understand hindi),2022-02-23T23:14:54Z,0,0
+Waquar Azam,Kabtak complete hoga series,2022-02-23T18:04:31Z,1,0
+AnTifRagiLe,Plz  upload videos Asap mam.. 🥺🥺,2022-02-23T15:51:00Z,1,0
+Rishabh Jamwal,Zirrooo like Punne 😅,2022-02-23T08:51:37Z,0,0
+Georg Bregar,Very clear thank you ma am,2022-02-21T19:27:59Z,0,0
+Anime God,Please keep uploading videos regularly and finish this playlist fast,2022-02-21T14:24:22Z,3,0
+Kishor Kale,Teaching style is good ✨🙏,2022-02-21T08:39:52Z,0,0
+Mr Suman kumar,Web development course lunch karye please,2022-02-20T16:21:34Z,0,0
+Tayyab Ahmed,Pls focus on problem solving and solve problems of every topic as many as possible. So that we can crack any interview. Thanks,2022-02-20T12:18:44Z,0,0
+P K,"Can someone tell me error in this code- <a href=""https://youtu.be/U4KVTqSio3w"">https://youtu.be/U4KVTqSio3w</a>",2022-02-20T12:06:16Z,0,0
+Muhammad Usman,"1 short videos are too much best way to learn smartly and effectively, hope to get one 🕐 on all main dsa topics",2022-02-20T06:16:59Z,1,0
+Limitless MEP Design,Mam this is enough for binary tree or we have to study more for interview and all,2022-02-20T02:06:21Z,0,0
+Akshay Dharmik,I request you DIDI and the apna college team to post video on JAVA+DSA fast as possible. I have placement in next 4 month 🙏,2022-02-19T18:53:40Z,1,0
+Sugadev Murugesan,mam provide as in English for south people,2022-02-19T17:05:32Z,0,0
+api maker,How old are you ?,2022-02-19T13:19:01Z,0,0
+api maker,Great explanation,2022-02-19T13:18:47Z,0,0
+api maker,You know it&#39;s soooo simple,2022-02-19T13:18:37Z,0,0
+Lasitha Dilshan Thilakarathna,wow superb explanation,2022-02-19T12:30:25Z,1,0
+Govind Mall,"Ma&#39;am , can you make tutorial on how to build binary tree",2022-02-19T07:40:21Z,0,1
+Ritu Bhagat,Hello mam please post video of applet and trade,2022-02-18T10:25:28Z,0,0
+Mahadev Prasad Pal,Didi please make a video dedicated to Data Structure. What is Data Structure why it is used that too from basic for beginners like me I&#39;m so confused in Data Structure please help.,2022-02-18T08:22:52Z,1,0
+notanki meku 😉,Spanning tree to bataya hi nhi or AVL tree bhi nhi h😏😏,2022-02-17T17:07:38Z,1,0
+tahi chy,Need tutorial on Dynamic Programming. It will be a great help,2022-02-17T12:59:00Z,2,0
+Sachin Prasad,"This is the best video related to tree(DSA) I have ever came across., Thank you ma&#39;am for this. Lost of love. Increament++;",2022-02-17T06:41:02Z,3,0
+Arifa Sultana,"Ma&#39;am, can you make a video on file and read strings and integers from the file and separate them ?",2022-02-16T17:40:36Z,3,0
+Sahil khan,Please upload videos daily and please solve more problems and mention questions 🙏🏻,2022-02-16T16:59:53Z,2,1
+Ds_coder,🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰🥰,2022-02-16T15:28:44Z,0,0
+Electronic engineer,maam please dsa ki playlist complete kar do ASAP,2022-02-16T13:30:34Z,0,0
+Pragati Paliwal,Ma&#39;am can you please post videos on multithreading and  java 8 features . These were really helpful.,2022-02-16T09:43:57Z,8,0
+ipl streaming,Màaam I need complete lecture of hacking frm basic  please,2022-02-16T04:36:16Z,0,0
+Himanshu Sen,"It is the Home work Problem Can anyone tell me what is wrong in my approch.  I am not geeting the coorect answer if level is 3<br>    <br>public static int sumKLevelTraversal(Node root , int k){<br>        int level = 1 , ans = 0;<br>        Queue&lt;Node&gt; myQueue  = new LinkedList&lt;&gt;(); <br>        myQueue.add(root);<br>        while(!myQueue.isEmpty()){<br>            Node currNode = myQueue.remove();  <br>            //System.out.println(&quot;Now level is &quot; + level);<br>            if(level == k){<br>                System.out.print(<a href=""http://currnode.data/"">currNode.data</a> + &quot; &quot;);<br>                ans += <a href=""http://currnode.data/"">currNode.data</a>;<br>            } <br>            else{<br>                //  System.out.print(<a href=""http://currnode.data/"">currNode.data</a> + &quot; &quot;);<br>                 if(currNode.left != null){<br>                     myQueue.add(currNode.left);<br>                 }<br>                 if(currNode.right != null){<br>                    myQueue.add(currNode.right);<br>                }<br>                level++;<br>            }  <br>        }<br>        return ans;<br>    }",2022-02-15T17:44:50Z,0,0
+Gaurav Gautam,"Hello, When will Hasmap,Hashing topics comes and can you pls send us the syllabus like in which order all the videos will come or somewhat like structured planner",2022-02-15T17:17:32Z,2,0
+Gajab Facts,I am an Art Student Can I learn coding?,2022-02-15T07:20:29Z,0,0
+Hema Priya,"Hi, Thanks it&#39;s very useful. Please make in English too if possible.",2022-02-14T17:58:57Z,3,0
+10X Communication,mam pleas post the vedios,2022-02-14T06:08:06Z,0,0
+Operating System,There are 32 videos in the playlist. Please unhide the two videos that are hidden. Because your videos are helping me/us to learn Java.,2022-02-13T15:48:01Z,4,0
+deepika y,Mam plss do and complete java ds course as fast as possible pls mam it&#39;s very help ful,2022-02-13T06:22:34Z,0,0
+adarsh,mam pls can you make video on stack and queues too.,2022-02-11T16:44:37Z,0,0
+Chandrakant Dehury,Hey why did you make two videos private in java lecture?,2022-02-11T15:20:42Z,0,0
+techgamer,Can anyone share C++ or Javascript or Python Approach For tree BST Solution??,2022-02-11T13:15:18Z,0,0
+dare devil,"please increase the rate of uploading new videos, the learning links doesn&#39;t get established with such low consistency",2022-02-10T18:51:47Z,0,0
+Avneez,Plzz teach us how to take input in different ways like the driver code instead of just using direct values. It will be helpful for us for full function problems. Btw I really liked it. Everything&#39;s clear. 💥💯,2022-02-10T17:45:17Z,29,0
+Aryan Shaw,please aur new videos of java dsa aur jaldi jaldi nikaldo  :&#39;),2022-02-10T14:49:08Z,0,0
+AYUSH SINHA,Complete the java course asap!! Really helpful and easily understandable,2022-02-09T19:36:27Z,47,2
+Nitin Singh,and complete responsive website using react js  tutorial laiye didi / aman sir please kuch jaldi karo  really I want to crack my intern. please raise logo ko lao,2022-02-09T16:26:24Z,0,0
+Shubham Singh,Why is that in every next video u look even better...,2022-02-09T14:11:58Z,0,0
+TEAM NANDAN TECH,Great Teaching seems like more than 10 years experience but 2020 pass out incredible,2022-02-09T13:42:20Z,2,1
+Sidheshwar Tiwari,Man this is a goldmine... Maja aa gya,2022-02-09T13:01:25Z,0,0
+Sidheshwar Tiwari,While watching this video I kept remembering the DOM being a developer I work with it almost daily and yo boiii it&#39;s actually a tree 👍🏼,2022-02-09T12:32:05Z,1,0
+Techie Streams by Shubham,How did it print 1(root node) in very first example can someone explain ?,2022-02-09T12:26:19Z,0,0
+Maha Easy Code,Please put up videos on Devops tutorial and Dockers tutorials,2022-02-08T19:00:14Z,0,0
+Shubham Mishra,Please make a video on data structure using python,2022-02-08T15:59:19Z,1,0
+Rashmi Devi,Didi ..mai bsc  kar chuki hu...aur MCA karana chahti hu ..b s c ke subjects ka mujhe jyada knowledge nhi hai..to m c a karana sahi rahega...b s c se related subjects hote hai kya m c a me...,2022-02-08T13:48:45Z,0,0
+KUMUD RANJAN,"GATE CSE 2023 admission at 50% discount <a href=""https://youtu.be/iM_1G7GMPu8"">https://youtu.be/iM_1G7GMPu8</a>",2022-02-08T07:04:01Z,0,0
+Dev Vedi,ma&#39;am please make the vdo on python....and cover its all topic plzz....,2022-02-08T02:40:13Z,0,0
+Guddu Kumar,"mam graph  pls, thank you so much",2022-02-07T22:31:50Z,0,0
+Sanskar Gubreley,Didi Ye playlist kab tak complete hogi?,2022-02-07T18:26:55Z,0,0
+AHIL KHAN,Mam me sirf aapko dekhne or sunne ke liye viedo dekhta ho baki shamj me kuch nhi aata,2022-02-07T17:56:56Z,0,0
+Game with wine,Mam please fast,2022-02-07T15:20:23Z,0,0
+Tejas Kumar,You don&#39;t need to define next and previous references to be null.Non primitive data types are already defined as null in Java,2022-02-07T11:15:39Z,1,1
+HIMANSHU SINGH,can you please make a video on python and c....it will help us a lot...,2022-02-07T10:23:22Z,4,0
+Aruna Dungarwal,"<a href=""https://youtu.be/MUf-Mpvxmww"">https://youtu.be/MUf-Mpvxmww</a>",2022-02-07T09:46:56Z,0,0
+Shaik king Fahad,"Hlo mam i need your help i belongs to a middle class family I used to do job for my college expenses, <br>I want to become a software developer<br>Currently iam in 12th computer science<br>I have no option to continue my studies after 12th <br>Is degree is important to become a software developer? <br>And i also learning java and c language in a Institute they said that they also give a certificate <br><br><br><br>Please help me mam <br>Thank you ❤",2022-02-07T09:44:33Z,0,0
+13 - XIIB Sundram,Thankyou for posting the next video but please try to complete the series as fast as possible we are waiting for the next video.,2022-02-07T07:31:53Z,3,0
+kush,mere college me just trees start hua and mai pahle ki video dekhi thi aapki and trees soch hi raha tha kaha se karu and lo aapki video aa gai .. thankuuu,2022-02-07T05:43:38Z,0,0
+MH Bajait,Didi!! Tech wale videos ki playlists kaha gai.. apne delete kari kya? pls usse add kardo...,2022-02-07T05:22:19Z,0,0
+76.ADITYA ANAND,"You really do good work mam ,jai hind",2022-02-07T05:10:06Z,0,0
+Abishek Narayanan,"Because of you, I am learning Hindi ! instead of Learning Binary trees. Not even a CC. Disappointed !!",2022-02-07T04:17:23Z,0,0
+Neel Verma,Maim thoda jldi jldi video dla kigiye..kafi late se video aa rahi h🥺,2022-02-07T04:04:28Z,0,0
+Kashif Aziz,Please close the channel.,2022-02-07T03:03:35Z,0,0
+factttttt,please tell us when will python for beginner part 2 will come we all are waiting.,2022-02-07T02:24:18Z,4,0
+learn coding free,Please complete this series as soon as possible please .we really need it .,2022-02-06T19:53:17Z,12,1
+Habeeb Ahmed,Maam I request you to please post a video on express.js API in Hindi please,2022-02-06T19:26:17Z,1,0
+Medha Shrivastava,Thanks a lot Mam.....♥️,2022-02-06T17:59:27Z,0,0
+Sachin,Mam these are helpful and thanks,2022-02-06T17:49:58Z,0,0
+Himalay soni,Mam pls upload 1 video in daly or 1 day latter..,2022-02-06T17:11:54Z,0,0
+Neha My love,Hlo Didee me re pass computer nahi nahi Samsung Galaxy mobile he to me mobile try kar sakta hu,2022-02-06T16:22:58Z,1,0
+Mr Siddhartha Gamer,"Ma,am your class is amazing",2022-02-06T16:02:16Z,2,0
+Alka Rathi,Pls bring a begginer&quot;s to advance python course by shraddha di ...,2022-02-06T15:22:43Z,2,0
+PC ∆,Ma&#39;am please write the (things you must already know ) in the description of such kind of lectures. 😅,2022-02-06T14:54:25Z,0,0
+Shorts,didi continue video  rakho is series please,2022-02-06T14:48:33Z,0,0
+Smart way,Why don&#39;t  you start paid complete course so that people  will get best mentor online...just do it for us who need a best mentor to success in their life...we need your complete course maam🙏,2022-02-06T14:43:23Z,1,0
+Abhinav kumar,"Didi, what is your thoughts on Web 3.0",2022-02-06T14:35:51Z,0,0
+Nilesh Patel,Hii...didi..kya non technical students coding Sikh ke High paying job pa sakte hain... please reply me as soon as fast.... 🙏,2022-02-06T14:30:04Z,0,0
+Deepak gaming,lots for thanks  didi,2022-02-06T14:16:42Z,0,0
+Neha Prihar,Mam in my college there&#39;s only one sub for cse ds in semester 3,2022-02-06T13:16:37Z,0,0
+Vivek Dangate,Didi i request to you create the c++ one shot lecture plz,2022-02-06T12:11:14Z,1,0
+Jyoti Patil,c dac DBDA  futer scop job opportunity package please explain it,2022-02-06T11:51:44Z,0,0
+Anuj Saini,thank u didi❤❤❤❤,2022-02-06T11:33:08Z,0,0
+RISHABH SHARMA,&quot;RAHE HONGE....&quot; has a separate fan base,2022-02-06T11:33:07Z,2,0
+User123,"Hey Ma’am, Your content is on a level far beyond anyone! <br>I want to put a little request: <br>If you could please make a 1.5 hour long video on stack and queues with all the important concepts and  questions(easy, medium and hard) including in it and also cover interview oriented questions(kinda crash course type).",2022-02-06T11:14:37Z,158,6
+Rushi,Please make video on COEP college,2022-02-06T10:52:52Z,0,0
+nurnobi daly,Didi Please give us a payton full course,2022-02-06T10:41:54Z,0,0
+Saurabh Dwivedi,🙏❤️👌👌👌,2022-02-06T10:31:12Z,0,0
+CAS,😈,2022-02-06T10:08:41Z,0,0
+Shivam Tiwari,Microsoft se aapko nikala gaya tha????? <br>Yah chora tha???,2022-02-06T09:48:24Z,0,0
+Be changers,Information about computer science students in software engineering line&#39;s,2022-02-06T09:12:48Z,0,0
+Ashish Dubey,Thanku didi ...,2022-02-06T09:11:40Z,0,0
+bunty J,Didi ji machine learning ke uper bhi ek video banadona please<br>U r doing a great job,2022-02-06T09:03:21Z,0,0
+Arunkumar Thambiraj,"Please post in English <a href=""http://too.so/"">too.So</a> that people like me who don&#39;t know Hindi can learn too",2022-02-06T08:32:39Z,0,0
+Mohd Uvais,Laptop ke liye Ek video banaye jo aap use karti Ho mam,2022-02-06T08:24:18Z,1,0
+HistOry Of WOrld,"Ma&#39;am I&#39;m big fan of you .<br>I&#39;m from Balochistan, Pakistan .<br>I&#39;m BS English student but now I&#39;m learning coding and programming so your lecture very helpful to me .",2022-02-06T08:22:42Z,12,1
+Amrithnath,"Mam can you do a series on aptitude ,logical reasoning ,verbal ability like that you done c++ complete placement course because so much companies are now needed these topics<br>for placement like tcs nqt ...<br>So much work questions under each video as pdf.Its a very helpful all including college students... Then the placement package is also be a complete one ..",2022-02-06T08:07:35Z,40,0
+Shubham,Superb didi,2022-02-06T07:47:27Z,0,0
+Vinay Singla,I thought this channel only became a guidance and motivation channel. Glad to see a teaching content after so long.,2022-02-06T07:39:39Z,17,0
+Zain Aziz,Abhi abhi DSA ka paper dekr aaya,2022-02-06T07:36:07Z,0,0
+Hemant Singh Jadoun,thanks,2022-02-06T07:15:46Z,0,0
+Aesthetic Sufiya,I watch your 1st video samjh me kuch nhi aaya lekin i really appreciate your work,2022-02-06T07:06:30Z,0,0
+Rituraj Patel,Thanks didi aapne teachers se bhi accha samjhya,2022-02-06T06:49:14Z,0,0
+sreejhari 554,Ma&#39;am I request you to post videos on java + DS as fast as possible. These are really helpful.,2022-02-06T06:26:03Z,502,16
+Abhijeet Kaur,Thank you didi..<br>Mujhe laga ki ab java wala vedio  python wale course ke baad hi ayega.. 😓,2022-02-06T06:25:06Z,0,0
+sri vamshi,Please continue WEB D also didi,2022-02-06T06:08:31Z,0,0
+Tavleen Kaur,THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU,2022-02-06T05:51:39Z,0,0
+Ajit Kumar Swain,"Thanks didi keep it up  ,",2022-02-06T05:38:10Z,0,0
+Reena Yadav,Thank you so much finally vedio aaya🙏🙏,2022-02-06T05:19:10Z,0,0
+shalini Patel,Plz upload on pythonalso,2022-02-06T05:08:30Z,0,0
+Ayesha Mehreen,Didi plz. What is binary explain karke upload kariya plzzz,2022-02-06T05:03:36Z,0,0
+Imran ali,Thanks you api,2022-02-06T05:00:20Z,0,0
+utkarsh,aram se yaat mam bahut jaldo patat ke comcept skip kar dete hai nahi smjh ata hai,2022-02-06T04:56:17Z,0,0
+krishna pal,Mam Java course kab tak finish ho jayega,2022-02-06T04:55:45Z,1,0
+"Relax,Calm & healing music",Very good 👍🙏🙏👍👍,2022-02-06T04:54:49Z,0,0
+o,I think I am so late,2022-02-06T04:53:59Z,1,0
+bhupesh singh,Teacher ki vacancy h madam,2022-02-06T04:45:55Z,0,0
+UMA SAI VEERABHADRA RAO SURAPUREDDY,Thank you for your efforts,2022-02-06T04:43:57Z,2,0
+Umesh Gehlot,Didi aap c one shot nhi bna rhe ho fab. Ending me paper hai PLZZ 🙏🙏🙏🙏🙏🙏 bna do 🙏🙏🙏😭,2022-02-06T04:43:32Z,0,0
+EDU-Amplifier,DIDI PLEASE MAKE A REVIEW VIDEO ON NIT JALANDHAR🙏🙏🙏,2022-02-06T04:41:30Z,1,0
+Sana Parveen,Can anyone please tell me when it be completed???🥺😭,2022-02-06T04:40:47Z,0,0
+Anuj Pratap,Didi ek baar aise hi smjha kr c++ pr bna diiiye,2022-02-06T04:40:20Z,0,0
+Sana Parveen,How long the series will be?,2022-02-06T04:40:14Z,0,0
+arun chauhan,Thanks,2022-02-06T04:38:09Z,0,0
+YTG SHORTS ,Didi always op,2022-02-06T04:31:20Z,0,0
+Dil Dosti,Didi to chha gai ! ! ! 😍,2022-02-06T04:30:39Z,0,0
+CodeIsHard,My dearest teacher didi..could you please tell me if the C++ DSA course is complete or not?<br>-Take Love and respect from Bangladesh.,2022-02-06T04:30:31Z,1,1
+SAIKAT SAMANTA,"Didi ;,,, Coading main typping speed kayide badayei ?...plz , tell🙏🙏🙏🙏🙏🙏🙏🙏🙏",2022-02-06T04:16:54Z,2,1
+Himanshu Sharma,"Didi plz complete the full stack web development course, it had been stopped at React js from so many days",2022-02-06T04:16:42Z,7,0
+Om Pangavhane,Good morning 🌞,2022-02-06T04:13:41Z,0,0
+Priyanshi Priya,Thank you so much didi❣️,2022-02-06T04:03:30Z,0,0
+Utkarsh Rao,Hii di ❣️,2022-02-06T03:52:46Z,0,0
+Chaitanya Lohar,Thanks for continuing this series...,2022-02-06T03:44:08Z,8,0
+LYRICS 2.0 VK,C++,2022-02-06T03:41:33Z,1,0
+English Classes,Didi you are my inspiration😁,2022-02-06T03:33:47Z,1,0
+KRISH SHARMA,Mam my question is if I do software development not from a college so i eligible for become a Microsoft or any other company intern,2022-02-06T03:33:20Z,0,0
+Tech_Hacker,Class 12 me bhi he hamko c++ and data structure me ❤❤❤❤❤,2022-02-06T03:32:14Z,6,2
+Sushant,4 Minutes To Go .... 😀😀,2022-02-06T03:27:09Z,0,0
+Question Baba,I was waiting this video many time 🥰🥰,2022-02-06T03:16:07Z,3,0
+rehan ahamad@,Mai bhi soch rha tha bhi vedio didi jald se jald banayen 🍟💕💕💕💕,2022-02-06T03:12:06Z,18,3
+Farman Ali,Waiting Didi,2022-02-06T03:02:55Z,1,0
+Sarika Desai,filhal to CSS laptre hai. badhme dekhte he trees ki,2022-02-06T00:58:45Z,0,0
+Ayaz Khan Yousafzai,Most waited video,2022-02-05T21:12:38Z,0,0
+Musa Utmani,Plz make tutorials on android development course,2022-02-05T20:38:27Z,0,0
+Aniket,please be consitent..,2022-02-05T19:54:48Z,1,0
+Ananyaa Yadav,Didi please make  DSA series with C or C++,2022-02-05T19:14:56Z,2,1
+Shivam Dandekar,try to cover all topics don&#39;t miss anyone because he is very complicated topics  and discuss the interview questions for tree ...<br>little bit competitive programing questions,2022-02-05T19:05:04Z,22,1
+sachin gupta,tq di,2022-02-05T18:59:59Z,0,0
+Himanshu Yadav,U r awesome didi,2022-02-05T18:56:12Z,0,0
+mq,Aapne to sanyaas le liya tha Madam ji......<br><br><br><br><br><br> Just kidding🤣🤣😂😂😂😂🤣😂,2022-02-05T18:53:06Z,1,0
+Tony stark mohit,Can you make a special group of telegram for cse student....??,2022-02-05T18:48:24Z,4,0
+Joly Halder,DIDI EK ANDROID DEVELOPMENT PAR NAHI TOH MERN STACK PAR VIDEO BANA DO KABSE BOLEJARAHA HU PLEASE PLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESEEEEE,2022-02-05T18:42:56Z,3,1
+Wasif Hussain,Gate exam course ? Any chance ? Please 🥺,2022-02-05T18:41:38Z,1,0
+Pure Coders,Mai isi video ka wait kar raha tha,2022-02-05T18:40:14Z,0,0
+akshay sankpal,I am just complete c lauange,2022-02-05T18:39:31Z,0,0
+akshay sankpal,I am first com,2022-02-05T18:39:14Z,0,2
+akshay sankpal,Hi,2022-02-05T18:39:02Z,0,0
